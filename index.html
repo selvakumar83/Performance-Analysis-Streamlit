@@ -63,10 +63,8 @@
 
   <div class="upload-container">
     <h2>Upload CSV Dataset</h2>
-    <form action="/" method="post" enctype="multipart/form-data">
-      <input type="file" name="dataset" required>
-      <button type="submit">Upload and Analyze</button>
-    </form>
+    <input type="file" id="csvFile" accept=".csv">
+<button onclick="loadCSV()">Upload and Analyze</button>
   </div>
 
 </body>
