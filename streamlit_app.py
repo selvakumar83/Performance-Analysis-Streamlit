@@ -62,9 +62,9 @@ if "login" not in st.session_state:
 # -------------------------
 if not st.session_state.login:
 
+ 
 
-
-    st.markdown("<h1 class='title'>🔐 Student Login</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 class='title'>🔐 AI&DS Student Login</h1>", unsafe_allow_html=True)
 
     reg_no = st.text_input("Enter Your Roll Number")
 
