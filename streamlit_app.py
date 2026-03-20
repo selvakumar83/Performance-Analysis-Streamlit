@@ -64,10 +64,10 @@ if not st.session_state.login:
 
  
 
-    st.markdown("<h2 class='title'>🔐 Student Login AI&DS III-A</h2>", unsafe_allow_html=True)
+    st.markdown("<h1 class='title'>🔐 Student Login </h1>", unsafe_allow_html=True)
      
 
-    reg_no = st.text_input("Enter Your Roll Number")
+    reg_no = st.text_input("Enter Your Roll Number[AI&DS III-A]")
 
     if st.button("Login"):
         if reg_no in valid_students:
