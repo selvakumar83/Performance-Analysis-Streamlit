@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Apr 26 11:52:08 2025
-
-@author: ASUS
-"""
-
 import os
 import pandas as pd
 from flask import Flask, render_template, request, redirect, url_for
